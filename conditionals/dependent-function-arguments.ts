@@ -31,7 +31,7 @@ type ExtractActionParameters<A, T> = ExcludeTypeField<Extract<A, { type: T }>>
 
 type DispatchArgs<A> = {} extends A
     ? never
-    : { [K in Exclude<keyof A, 'type'>]: A[K] }
+    : A
 
 
 declare function dispatch(type: SimpleActionType): void;
