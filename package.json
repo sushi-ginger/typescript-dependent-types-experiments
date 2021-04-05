@@ -8,11 +8,11 @@
   },
   "devDependencies": {
     "eslint": "^7.23.0",
+    "fp-ts": "^2.9.5",
+    "io-ts": "^2.2.16",
     "prettier": "^2.2.1"
   },
-  "scripts": {
-
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sushi-ginger/typescript-dependent-types-experiments.git"
